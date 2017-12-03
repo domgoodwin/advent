@@ -1,16 +1,16 @@
 # Advent2017
 advent-2017
 
-Daily challanges from: 
+Daily challanges from:
 [adventofcode](http://adventofcode.com/2017)
 
 ## Days overview
 
 | Day| Language | Run | Stars | Date |
 | --- | --- | --- | --- | --- |
-| Day 1 | *NodeJS v4.6.1* | `node day1` | ★★ | **01/12/2017** |
+| Day 1 | *Node.js v4.6.1* | `node day1` | ★★ | **01/12/2017** |
 | Day 2 | *Python v2.7.8* | `python day2.py` | ★★ | **02/12/2017** |
-| Day 3 | *undecided* | `todo` |  | **N/A** |
+| Day 3 | *go v1.9.2* | `go build , advent` | ★★ | **03/12/2017** |
 | Day 4 | *undecided* | `todo` |  | **N/A** |
 | Day 5 | *undecided* | `todo` |  | **N/A** |
 | Day 6 | *undecided* | `todo` |  | **N/A** |
@@ -33,6 +33,3 @@ Daily challanges from:
 | Day 23 | *undecided* | `todo` |  | **N/A** |
 | Day 24 | *undecided* | `todo` |  | **N/A** |
 | Day 25 | *undecided* | `todo` |  | **N/A** |
-
-
-
