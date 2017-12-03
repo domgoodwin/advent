@@ -26,6 +26,8 @@ func main() {
     inputText := string(b)
     fmt.Println(inputText)
 
+    // PART 1 - square number calculation
+
     // Work out which ring the number is on
     // Converts string to int, base 10, 0means 64bit int
     //goalNumber, _ := strconv.ParseInt(inputText, 10, 8)
@@ -51,7 +53,7 @@ func main() {
     fmt.Printf("The coordinates of the number are: %v\n", location)
     midPoint := Coordinate{X: float64((side + 1) / 2), Y: float64((side + 1) / 2)}
     distance := math.Abs(location.X - midPoint.X) + math.Abs(location.Y - midPoint.Y)
-    fmt.Printf("The distance between the points is %v\n", distance)
+    fmt.Printf("The distance between the points is %v [PART1]\n", distance)
 
 
 
