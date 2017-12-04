@@ -11,7 +11,7 @@ Daily challanges from:
 | Day 1 | *Node.js v4.6.1* | `node day1` | ★★ | **01/12/2017** |
 | Day 2 | *Python v2.7.8* | `python day2.py` | ★★ | **02/12/2017** |
 | Day 3 | *go v1.9.2* | `go build , advent` | ★★ | **03/12/2017** |
-| Day 4 | *undecided* | `todo` |  | **N/A** |
+| Day 4 | *scala v2.12.3* | `sbt run` | ★★ | **04/12/2017** |
 | Day 5 | *undecided* | `todo` |  | **N/A** |
 | Day 6 | *undecided* | `todo` |  | **N/A** |
 | Day 7 | *undecided* | `todo` |  | **N/A** |
