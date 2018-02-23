@@ -32,7 +32,7 @@ def knotHashRound(lengths, circle):
     return circle
 
 oneCircle = knotHashRound(lengths, circle)
-part 1
+#part 1
 print(oneCircle[0] * oneCircle[1]) 
 
 #part 2
