@@ -12,10 +12,10 @@ Daily challanges from:
 | Day 2 | *Python v2.7.8* | `python day2.py` | ★★ | **02/12/2017** |
 | Day 3 | *go v1.9.2* | `go build , advent` | ★★ | **03/12/2017** |
 | Day 4 | *scala v2.12.3* | `sbt run` | ★★ | **04/12/2017** |
-| Day 5 | *undecided* | `todo` |  | **N/A** |
-| Day 6 | *undecided* | `todo` |  | **N/A** |
-| Day 7 | *undecided* | `todo` |  | **N/A** |
-| Day 8 | *undecided* | `todo` |  | **N/A** |
+| Day 5 | *Rust* | `todo` | ★★ | **N/A** |
+| Day 6 | *Python v3.6.4* | `python day6.py` | ★★ | **N/A** |
+| Day 7 | *Python v3.6.4* | `python day7.py` | ★★ | **N/A** |
+| Day 8 | *Python v3.6.4* | `python day8.py` | ★★ | **N/A** |
 | Day 9 | *undecided* | `todo` |  | **N/A** |
 | Day 10 | *undecided* | `todo` |  | **N/A** |
 | Day 11 | *undecided* | `todo` |  | **N/A** |
