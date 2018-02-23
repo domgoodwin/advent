@@ -14,7 +14,7 @@ rawIn = f.read()
 
 # remove cancel chars !.
 rawIn = re.sub('!.', '', rawIn)
-# remove garbage chars <.*>
+# remove garbage chars, non greedy
 rawIn = re.sub('<[^>]*>', remove_garbage, rawIn)
 
 for char in rawIn:
