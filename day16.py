@@ -1,5 +1,3 @@
-f = open('inputs/day16.txt', 'r')
-
 def spin(prog, x):
     end = prog[-x:]
     pr = prog.replace(end, "")
@@ -13,24 +11,21 @@ def exchange(prog, a, b):
     return "".join(pr)
 
 def partner(prog, a, b):
-    print(prog, a, b, prog.index(a), prog.index(b))
     return exchange(prog, prog.index(a), prog.index(b))
 
 #tests
 t = "abcdefghijklmnop"
 t = spin(t, 2)
-print(t)
 assert t == "opabcdefghijklmn"
 t = exchange(t, 10, 3)
-print(t)
 assert t == "opaicdefghbjklmn"
 t = partner(t, "a", "c")
 assert t == "opciadefghbjklmn"
 
-program = "abcdefghijklmnop"
 
-for line in f:
-    instructions = line.split(",")
+def dance(instructions, prog):
+
+    program = prog
     for ins in instructions:
         if(ins[0] == "s"):
             # spin
@@ -45,5 +40,29 @@ for line in f:
             program = partner(program, nums[0], nums[1])
         else:
             print("This shouldn't happen")
+    return program
 
+f = open('inputs/day16.txt', 'r')
+instructions = ""
+for line in f:
+    instructions = line.split(",")
+
+
+program = "abcdefghijklmnop"
+#part 1
+print(dance(instructions, program))
+
+#part 2
+# 1bil is too many, if program repeats stop it
+variations = []
+index = 0
+for i in range(0, 1000000000):
+    program = dance(instructions, program)
+    if(program in variations):
+        print(i)
+        index = i
+        break
+    variations.append(program)
+
+program = variations[1000000000 % index - 1]
 print(program)
