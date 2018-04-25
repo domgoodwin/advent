@@ -18,8 +18,7 @@ namespace day6dotnet
             string curPattern = String.Empty;
             while (!oldPatterns.Contains(curPattern))
             {
-                if(curPattern != String.Empty) oldPatterns.Add(string.Join(",", blocks.ToArray()));
-                curPattern = oldPatterns.Count != 0 ? oldPatterns.Last() : String.Empty;
+                if(curPattern != String.Empty) oldPatterns.Add(curPattern));
                 Console.WriteLine(curPattern);
                 count++;
                 // Get maximum item
@@ -35,6 +34,7 @@ namespace day6dotnet
                     blocks[curI] += 1;
                     maxValue -= 1;
                 }
+                curPattern = string.Join(",", blocks.ToArray());
                 Console.WriteLine(curPattern);
 
             }
