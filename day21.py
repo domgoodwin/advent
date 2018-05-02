@@ -132,11 +132,14 @@ while(count < 18):
         col += len(items[0])
     
     pat = n_pat
+    for row in pat:
+        print(row)
     count += 1
 
 on_count = 0
 # Calculate and count hashes
 for row in pat:
+    #print(row)
     for ch in row:
         on_count += 1 if ch == "#" else 0
 print("part1", on_count)
