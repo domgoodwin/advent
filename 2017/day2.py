@@ -33,7 +33,7 @@ for line in f:
             yNum = num
             if(((xNum % yNum) == 0) and (xNum != yNum)):
                 tup = (xNum, yNum)
-    print tup
+    print(tup)
     p2sum += tup[0] / tup[1]
 
 
@@ -45,6 +45,6 @@ checksum = 0
 for number in checksums:
     checksum += number
 
-print checksum
+print(checksum)
 
-print "Part 2 total: " + str(p2sum)
+print("Part 2 total: " + str(p2sum))
