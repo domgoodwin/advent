@@ -1,5 +1,5 @@
+# todo
 f = open('inputs/day7.txt', 'r')
-
 # find root node in tree
 part1 = ''
 
