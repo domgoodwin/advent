@@ -44,7 +44,7 @@ func main() {
 		}
 		freq += mod
 		if freqs[freq] != 0 && !found {
-			fmt.Println("Part 2") // 520 too low
+			fmt.Println("Part 2")
 			fmt.Println(freq)
 			found = true
 		}
