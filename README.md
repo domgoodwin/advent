@@ -1,8 +1,8 @@
-# Advent2017
-advent-2017
+# Advent of Code
+advent
 
 Daily challanges from:
-[adventofcode](http://adventofcode.com/2017)
+[adventofcode](http://adventofcode.com/)
 
 ## Days overview
 
@@ -10,8 +10,8 @@ Daily challanges from:
 | Day| Language | Run | Stars | Date |
 | --- | --- | --- | --- | --- |
 | Day 1 | *go v1.11.1* | `./Day1.go` | ★★ | **03/12/2018** |
-| Day 2 | *go v1.11.1* | `python day2.py` | ★★ | **02/12/2017** |
-| Day 3 | *go v1.11.1* | `go build , advent` | ★★ | **03/12/2017** |
+| Day 2 | *go v1.11.1* | `./Day2.go` | ★★ | **02/12/2017** |
+| Day 3 | *go v1.11.1* | `./Day3.go` | ★★ | **03/12/2017** |
 | Day 4 | *go v1.11.1*  | `./Day4.go` |  | **todo** |
 | Day 5 | *go v1.11.1* | `./Day5.go` | ★★ | **07/12/2017** |
 | Day 6 | *go v1.11.1*  | `./Day6.go` |  | **todo** |
