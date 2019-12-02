@@ -6,6 +6,35 @@ Daily challanges from:
 
 ## Days overview
 
+### 2019
+| Day| Language | Run | Stars | Date |
+| --- | --- | --- | --- | --- |
+| Day 1 | *python 3* | `python 1.py` | ★★ | **02/12/2019** |
+| Day 2 | *python 3* | `python 2.py` | ★★ | **02/12/2019** |
+| Day 3 | *python 3* | `python X.py` |  | **todo** |
+| Day 4 | *python 3*  | `python X.py` |  | **todo** |
+| Day 5 | *python 3* | `python X.py` |  | **todo** |
+| Day 6 | *python 3*  | `python X.py` |  | **todo** |
+| Day 7 | *python 3*  | `python X.py` |  | **todo** |
+| Day 8 | *python 3*  | `python X.py` |  | **todo** |
+| Day 9 | *python 3*  | `python X.py` |  | **todo** |
+| Day 10 | *python 3*  | `python X.py` |  | **todo** |
+| Day 11 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 12 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 13 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 14 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 15 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 16 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 17 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 18 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 19 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 20 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 21 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 22 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 23 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 24 | *python 3*   | `python X.py` |  |  **todo** |
+| Day 25 | *python 3*   | `python X.py` |  |  **todo** |
+
 ### 2018
 | Day| Language | Run | Stars | Date |
 | --- | --- | --- | --- | --- |
