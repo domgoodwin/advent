@@ -1,6 +1,7 @@
 use std::io::{self, BufReader};
 use std::io::prelude::*;
 use std::fs::File;
+use std::collections::HashMap;
 
 
 fn main() -> io::Result<()> {
@@ -38,14 +39,34 @@ fn main() -> io::Result<()> {
 
     right_numeric.sort();
 
-    let mut total_distance = 0;
-    for (i, l) in left_numeric.iter().enumerate() {
-        let diff = l - right_numeric[i];
-        total_distance += diff.abs();
-    }
+    part_one(&left_numeric, &right_numeric);
+    part_two(&left_numeric, &right_numeric);
 
-    println!("{}", total_distance);
 
     Ok(())
     
+}
+
+fn part_one(left: &Vec<i32>, right: &Vec<i32>) {
+    let mut total_distance = 0;
+    for (i, l) in left.iter().enumerate() {
+        let diff = l - right[i];
+        total_distance += diff.abs();
+    }
+
+    println!("part one: {}", total_distance);
+}
+
+fn part_two(left: &Vec<i32>, right: &Vec<i32>) {
+    let mut similarity = HashMap::new();
+    for (_, l) in left.iter().enumerate() {
+        let count = right.iter().filter(|&&x| x == *l).count();
+        similarity.insert(l, count);
+    }
+    let mut total = 0;
+    for (key, value) in similarity.into_iter() {
+        total += key * value as i32;
+    }
+    
+    println!("part two: {:?}", total);
 }
