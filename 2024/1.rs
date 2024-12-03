@@ -5,7 +5,7 @@ use std::collections::HashMap;
 
 
 fn main() -> io::Result<()> {
-    let f = File::open("./inputs/1")?;
+    let f = File::open("./inputs/1.txt")?;
     let f = BufReader::new(f);
 
     let mut left = Vec::new();
