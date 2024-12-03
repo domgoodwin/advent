@@ -3,7 +3,7 @@ use std::io::prelude::*;
 use std::fs::File;
 
 
-fn main() -> io::Result<()> {
+pub fn day_two() -> io::Result<()> {
     let f = File::open("./inputs/2.txt")?;
     let f = BufReader::new(f);
 

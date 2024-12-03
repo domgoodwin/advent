@@ -4,7 +4,7 @@ use std::fs::File;
 use std::collections::HashMap;
 
 
-fn main() -> io::Result<()> {
+pub fn day_one() -> io::Result<()> {
     let f = File::open("./inputs/1.txt")?;
     let f = BufReader::new(f);
 
