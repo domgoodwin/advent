@@ -5,7 +5,8 @@ mod two;
 use two::day_two;
 mod three;
 use three::day_three;
-
+mod four;
+use four::day_four;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -18,5 +19,8 @@ fn main() {
     }
     if day == "3" {
         day_three();
+    }
+    if day == "4" {
+        let _ = day_four();
     }
 }

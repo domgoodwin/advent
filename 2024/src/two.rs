@@ -22,10 +22,6 @@ pub fn day_two() -> io::Result<()> {
     }
 
     part_one(reports.clone());
-
-    // 943 too high
-    // 458 too low
-    // 820 too high
     part_two(reports);
 
     Ok(())
